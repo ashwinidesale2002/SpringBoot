@@ -1,4 +1,6 @@
-package com.product.Entity;
+package com.product.entity;
+
+import java.util.List;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -23,5 +25,18 @@ public class Product {
 	private Integer productId;
 	private String productName;
 	private Integer price;
+	public List<Product> findAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	public Object findlById(int productId2) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
 
-}
+	}
+	
+	
+
+
